@@ -1,1 +1,1 @@
-# EDA_1_Practica_6_Colas
+# Práctica 6. Colas
