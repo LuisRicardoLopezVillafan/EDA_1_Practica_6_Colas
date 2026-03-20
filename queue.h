@@ -7,7 +7,7 @@
 #define    FULL     10000
 
 typedef    unsigned int         data;
-typedef    enum {false, true}   boolean;
+typedef    enum {FALSO, VERDERO}   boolean;
 
 struct elem {          // Un elemento en la cola.
     data         d;
@@ -15,7 +15,7 @@ struct elem {          // Un elemento en la cola.
 };
 
 typedef    struct elem           elem;
-struc queue {
+struct queue {
     int         cnt;                            // Conteo de los elementos de la cola.
     elem        *head;                          // Apuntador al 'head' de la cola.
     elem        *tail;                          // Apuntador al 'tail' de la cola.
